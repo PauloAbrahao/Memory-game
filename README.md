@@ -1,7 +1,8 @@
 # Memory Game
 
 <p align="center">
-  <img src="./src/assets/screenshot.png" width="700">
+  <img src="./public/img/scr1.png" width="700">
+  <img src="./public/img/scr2.png" width="700">
 </p>
 
 ## 💻 Projeto desenvolvido utilizando:
