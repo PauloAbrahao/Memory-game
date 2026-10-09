@@ -5,7 +5,7 @@
 body {
   font-family: Raleway, sans-serif;
   margin: 0;
-  font-size: 1.5em;
+  font-size: clamp(1rem, 0.6rem + 2vmin, 1.5rem);
   text-align: center;
   background: #1b1523;
   color: #fff;

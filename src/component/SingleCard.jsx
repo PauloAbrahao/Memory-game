@@ -15,7 +15,7 @@ const SingleCard = ({ card, handleChoice, flipped, disabled }) => {
       <div className={flipped ? "flipped" : ''}>
         <img src={card.src} alt="card" className="front" />
         <img
-          src="./img/cover.png"
+          src={`${process.env.PUBLIC_URL}/img/cover.png`}
           className="back"
           onClick={handleClick}
         />

@@ -3,16 +3,23 @@
 }
 
 .card img {
+  box-sizing: border-box;
   width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
   display: block;
   border: 2px solid #fff;
   border-radius: 6px;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
 }
 
 .card .front {
   transform: rotateY(90deg);
-  transition: all ease-in 0.2s; 
+  transition: all ease-in 0.2s;
   position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .flipped .front {
@@ -21,6 +28,7 @@
 }
 
 .card .back {
+  cursor: pointer;
   transition: all ease-in 0.2s;
   transition-delay: 0.2s;
 }
